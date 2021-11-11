@@ -1,4 +1,4 @@
-from entities.beer import Beer
+from beer import Beer
 
 
 def test_check_beer_name_by_id(beer_service):

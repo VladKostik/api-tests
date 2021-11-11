@@ -1,7 +1,7 @@
 import pytest
 
-from .entities import Beer
-from .infastructure import BeerService
+from beer import Beer
+from beer_service import BeerService
 
 
 @pytest.fixture(scope="session")
